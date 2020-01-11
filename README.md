@@ -1,1 +1,1 @@
-# Golang-Barcode-Encoder-and-Decoder
+# Golang-Barcode-Encoder
