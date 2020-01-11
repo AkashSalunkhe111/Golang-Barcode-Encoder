@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
+	"flag"
 	"github.com/AkashSalunkhe111/Golang-Barcode-Encoder-and-Decoder/internal/texttoqr"
 )
 
 func main() {
-	fmt.Println("First")
-	texttoqr.TextToQr("Hello World")
+	textPtr := flag.String("text", "Hello World", "a string")
+	flag.Parse()
+	texttoqr.TextToQr(*textPtr)
 }
