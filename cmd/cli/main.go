@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/AkashSalunkhe111/Golang-Barcode-Encoder-and-Decoder/internal/texttoqr"
+	"github.com/AkashSalunkhe111/Golang-Barcode-Encoder/internal/texttoqr"
 )
 
 func main() {
